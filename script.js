@@ -68,7 +68,7 @@ getWeather(newCity);
         weatherImg.src='./images/storm.png';
  }
  else if(data.weather[0].main=="Smoke"){
-    weatherImg.src='./images/night.png';
+    weatherImg.src='./images/smoke.jpg';
 }
 else if(data.weather[0].main=="Heavy rain"){
     weatherImg.src='./images/heavy.png';
